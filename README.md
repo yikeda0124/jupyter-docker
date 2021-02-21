@@ -1,6 +1,6 @@
-jupyter環境をdockerで作る
+jupyter環境をDockerで作る
 
-dockerのインストールが必要
+Docker(Linuxの場合、DockerComposeも)のインストールが必要
 
 使用方法
 
@@ -8,4 +8,6 @@ dockerのインストールが必要
 
 `cd jupyter-docker`
 
-`./RUN-JUPYTER-LAB.sh`
+`sudo docker-compose up`を行い、
+
+`localhost:8888`にアクセス
